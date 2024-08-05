@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -59,7 +59,7 @@
     <header
       class="absolute top-0 left-0 w-full bg-transparent items-center flex z-10 py-4"
     >
-      <div class=" container mx-5">
+      <div class=" container mx-auto px-5">
         <div class="flex items-center justify-between relative">
           <div class="">
             <a href="#" class="font-bold text-lg text-sky-600">
@@ -114,7 +114,8 @@
     </header>
     <!-- HEADER EDN -->
 
-    <section class="min-h-screen mt-20">
+    <!-- HERO SECTION -->
+    <section class="mt-20">
       <section class="w-full py-11">
         <h2
           data-aos="fade-right"
@@ -134,7 +135,7 @@
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          class="w-full h-96 bg-cover grayscale bg-center bg-opacity-35 relative group hover:grayscale-0 transition-all duration-700"
+          class="w-full h-96 xl:h-[700px] bg-cover grayscale bg-center bg-opacity-35 relative group hover:grayscale-0 transition-all duration-700"
           style="background-image: url('img/image1.jpeg');"
         >
           <div
@@ -195,9 +196,10 @@
         </div>
       </section>
     </section>
+    <!-- END OF HERO SECTION -->
 
     <!-- IMPACT -->
-    <section class="my-10 overflow-hidden">
+    <section class="my-20 overflow-hidden">
       <div class="mx-auto px-5 flex flex-wrap">
         <div data-aos="fade-right" data-aos-duration="1000" class=" w-full md:w-[50%]">
           <h1 class="text-primary font-bold text-xl">IMPACT</h1>
@@ -207,6 +209,7 @@
           <div class="my-5 text-slate-500 text-xl">
             Be like our global clients, scaled up your impacts through elevated
             digital transformation, with our solutions.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, accusamus.
           </div>
         </div>
         <div class=" w-full md:w-[50%]">
@@ -224,8 +227,7 @@
     <!-- READY TO USE PLATFORM -->
     <section class="my-20 px-5 overflow-hidden">
       <div class="mx-auto w-full">
-        <h1 class=" font-bold text-3xl text-primary my-10">5 Ready to use platform</h1>
-
+        <h1 data-aos="fade-up" class=" font-bold text-3xl text-primary text-center my-10">5 Ready to use platform</h1>
         <div class=" flex gap-9 justify-center flex-wrap">
 
             <!-- CARD -->
@@ -277,12 +279,38 @@
             <!-- END OF CARD -->
 
         </div>
-
-
         </div>
-      </div>
     </section>
     <!--  END READY TO USE PLATFORM -->
+
+    <!-- CONTAC US -->
+     <section id="contac" class=" w-full py-10 ">
+      <div class=" container mx-auto flex justify-center">
+       <!-- CARD -->
+        <div data-aos="fade-up" data-aos-duration="1000" class="w-8/12 lg:w-6/12 bg-secondary py-4 flex flex-wrap justify-center rounded-md shadow-lg">
+          <h1 class=" font-bold text-white text-2xl">Contac US</h1>
+          <form action="" class="block w-full mx-5 mt-5">
+            <div class="my-1">
+              <label for="" class=" font-medium text-white" >Nama</label>
+              <input type="text" class=" w-full rounded-md py-1 px-2" placeholder="Masukan di sini"> 
+            </div>
+            <div class="my-1">
+              <label for="" class=" font-medium text-white">Email</label>
+              <input type="text" class=" w-full rounded-md px-2 py-1" placeholder="Masukan di sini">
+            </div>
+            <div class="my-1">
+              <label for="" class=" font-medium text-white">Kritik Dan Saran </label>
+             <textarea name="" id="" class="w-full rounded-md" rows="9"></textarea>
+            </div>
+            <div class=" w-full">
+              <button id="submit" class=" bg-primary py-2 px-5 text-white rounded-md shadow-md hover:bg-slate-600">Submit</button>
+            </div>
+          </form>
+        </div>
+       <!-- END OF CARD -->
+      </div>
+     </section>
+    <!-- END OF CONTAC US -->
 
 
     <!-- back_top -->
@@ -293,32 +321,7 @@
     </a>
     <!-- back_top -->
 
-    <script>
-      //navbar fixed
-      window.onscroll = function () {
-        const header = document.querySelector("header");
-        const back_top = document.getElementById("back_top");
-        const fixedNav = header.offsetTop;
-
-        if (window.pageYOffset > fixedNav) {
-          header.classList.add("navbar-fixed");
-          back_top.classList.add("show");
-        } else {
-          header.classList.remove("navbar-fixed");
-          back_top.classList.remove("show");
-        }
-      };
-
-      //hamburger
-      const hamburger = document.getElementById("hamburger");
-      const navMenu = document.getElementById("nav-menu");
-
-      hamburger.addEventListener("click", function () {
-        hamburger.classList.toggle("hamburger-active");
-        navMenu.classList.toggle("hidden");
-      });
-    </script>
-
+    <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
