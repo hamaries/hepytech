@@ -53,8 +53,40 @@
         background: #f65d2c;
       }
     </style>
+
+      <!-- FONT -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet"
+      />
+      <script>
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                clifford: "#da373d",
+              },
+              fontFamily: {
+                inter: ["Inter"],
+              },
+              animation: {
+                goyang: "goyang 1s linear infinite",
+              },
+              keyframes: {
+                goyang: {
+                  "0% , 100%": { transform: "rotate (-3deg)" },
+                  "50%": { transform: "rotate(3deg)" },
+                },
+              },
+            },
+          },
+        };
+      </script>
   </head>
-  <body>
+  <body class="font-inter">
     <!-- HEADER START -->
     <header
       class="absolute top-0 left-0 w-full bg-transparent items-center flex z-10 py-4"
@@ -202,11 +234,11 @@
     <section class="my-20 overflow-hidden">
       <div class="mx-auto px-5 flex flex-wrap">
         <div data-aos="fade-right" data-aos-duration="1000" class=" w-full md:w-[50%]">
-          <h1 class="text-primary font-bold text-xl">IMPACT</h1>
-          <h1 class="text-4xl font-bold text-slate-700">
+          <h1 class="text-secondary font-bold text-xl">IMPACT</h1>
+          <h1 class="text-2xl font-semibold text-slate-700">
             Scale up your impact through technology
           </h1>
-          <div class="my-5 text-slate-500 text-xl">
+          <div class="my-5 text-slate-500  md:text-xl">
             Be like our global clients, scaled up your impacts through elevated
             digital transformation, with our solutions.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, accusamus.
@@ -227,7 +259,7 @@
     <!-- READY TO USE PLATFORM -->
     <section class="my-20 px-5 overflow-hidden">
       <div class="mx-auto w-full">
-        <h1 data-aos="fade-up" class=" font-bold text-3xl text-primary text-center my-10">5 Ready to use platform</h1>
+        <h1 data-aos="fade-up" class=" font-bold text-2xl text-primary text-center my-10">5 Ready to use platform</h1>
         <div class=" flex gap-9 justify-center flex-wrap">
 
             <!-- CARD -->
@@ -314,8 +346,8 @@
 
      <!-- FOOTER -->
      <footer class="w-full py-10 bg-slate-300">
-       <div class=" text-center font-bold">
-        &copy; 2024 HepyTech. Hak Cipta Dilindungi Undang-Undang.
+       <div class=" text-center font-semibold  text-slate-700">
+        &copy; 2024 HepyTech
        </div>
     </footer>
     <!-- FOOTER -->
