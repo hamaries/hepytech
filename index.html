@@ -6,7 +6,7 @@
     <title>Home</title>
     <!-- <link rel="stylesheet" href="src/output.css" /> -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+ 
     <style type="text/tailwindcss">
       .navbar-fixed {
         @apply fixed z-[9999];
@@ -95,8 +95,8 @@
         <div class="flex items-center justify-between relative">
           <div class="">
             <a href="#" class="font-bold text-sky-600 text-xl">
-              <span class="text-primary">Hepy</span>
-              <span class="text-secondary">Tech</span>
+              <span class="text-primary">HepyTech</span>
+          
             </a>
           </div>
 
@@ -117,14 +117,21 @@
             >
               <ul class="block md:flex">
                 <li
-                  class="px-4 group hover:bg-orange-600 py-3 font-bold hover:text-white rounded-lg"
+                  class="px-3 group hover:bg-orange-600 py-3 font-bold hover:text-white rounded-lg"
                 >
-                  <a class="flex" href="#">
+                  <a class="flex" href="#home">
                     Home
                   </a>
                 </li>
                 <li
-                  class="px-4 group hover:bg-orange-600 hover:bg-gradient-to-r py-3 font-bold hover:text-white rounded-lg"
+                  class="px-3 group hover:bg-orange-600 hover:bg-gradient-to-r py-3 font-bold hover:text-white rounded-lg"
+                >
+                  <a class="flex" href="#service">
+                    Service
+                  </a>
+                </li>
+                <li
+                  class="px-3 group hover:bg-orange-600 hover:bg-gradient-to-r py-3 font-bold hover:text-white rounded-lg"
                 >
                   <a class="flex" href="blog.html">
                     Blog
@@ -133,8 +140,8 @@
                 <li
                   class="px-4 group hover:bg-orange-600 py-3 font-bold hover:text-white rounded-lg block md:hidden"
                 >
-                  <a class="flex" href="#contac">
-                    Contac Us
+                  <a class="flex" href="#c">
+                   Call Me
                   </a>
                 </li>
               </ul>
@@ -151,27 +158,11 @@
     <!-- HEADER EDN -->
 
     <!-- HERO SECTION -->
-    <section class="mt-20">
-      <section class="w-full py-8 overflow-x-hidden">
-        <h2
-          data-aos="fade-right"
-          class="ms-5 text-2xl sm:text-5xl md:text-6xl font-bold md:text-start my-2 md:mb-8 text-primary"
-        >
-         Lorem ipsum dolor sit amet
-        </h2>
-        <h2
-          data-aos="fade-left"
-          class="me-5 text-2xl sm:text-5xl md:text-6xl font-bold text-end md:text-end my-2 md:my-5 text-secondary"
-        >
-          Lorem ipsum dolor sit opasd.
-        </h2>
-      </section>
-
-      <section class="w-full flex justify-center">
+    <section id="home" class="mt-20">
+      <section class="w-full flex justify-center ">
         <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          class="w-full h-96 xl:h-[700px] bg-cover grayscale bg-center bg-opacity-35 relative group hover:grayscale-0 transition-all duration-700"
+         
+          class="w-full h-96 xl:h-[800px] bg-cover grayscale bg-center bg-opacity-35 relative group hover:grayscale-0 transition-all duration-700"
           style="background-image: url('img/image1.jpeg');"
         >
           <div
@@ -180,46 +171,42 @@
           <div class="absolute z-20 bottom-5 gap-7">
             <div class="flex flex-wrap mx-5">
               <h2
-                data-aos="fade-right"
-                data-aos-duration="2000"
+                
                 class="font-bold text-2xl w-full md:w-1/2 text-white my-5 md:my-0"
               >
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Possimus dicta quos suscipit distinctio veniam non
               </h2>
               <h2 class="md:ps-3 font-bold w-full md:w-1/2 text-white">
-                <div class="flex justify-start">
+                <div class="flex justify-around">
                   <div
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
+                    
                     style="flex-direction: column;"
                     class="flex me-2"
                   >
-                    <span class="text-4xl">999</span>
+                    <span class="text-4xl text-orange-600">999</span>
                     <span class="font-bold text-xl"
                       >Clients <br />
                       Satisfied</span
                     >
                   </div>
                   <div
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
+                    
                     style="flex-direction: column;"
                     class="flex me-2 justify-center items-center"
                   >
-                    <span class="text-4xl">999</span>
+                    <span class="text-4xl text-orange-600">999</span>
                     <span class="font-bold text-xl"
                       >Projects <br />
                       Success</span
                     >
                   </div>
                   <div
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
+                    
                     style="flex-direction: column;"
                     class="flex me-2 justify-center items-center"
                   >
-                    <span class="text-4xl">999</span>
+                    <span class="text-4xl text-orange-600">999</span>
                     <span class="font-bold text-xl"
                       >Ready <br />
                       to use</span
@@ -234,15 +221,15 @@
     </section>
     <!-- END OF HERO SECTION -->
 
-    <!-- IMPACT -->
-    <section class="my-20 overflow-hidden">
-      <div class="mx-auto px-5 flex flex-wrap">
-        <div data-aos="fade-right" data-aos-duration="1000" class=" w-full md:w-[50%]">
-          <h1 class="text-secondary font-bold text-xl">IMPACT</h1>
+    <!-- about -->
+    <section  class="my-16 overflow-hidden mb-1 ">
+      <div class="mx-auto px-7 flex flex-wrap ">
+        <div class=" w-full md:w-[50%]">
+          <h1 class="text-secondary font-bold text-3xl my-2">About</h1>
           <h1 class="text-2xl font-semibold text-slate-700">
             Scale up your impact through technology
           </h1>
-          <div class="my-5 text-slate-500  md:text-xl">
+          <div class="my-2 text-slate-500  md:text-xl">
             Be like our global clients, scaled up your impacts through elevated
             digital transformation, with our solutions.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, accusamus.
@@ -250,125 +237,207 @@
         </div>
         <div class=" w-full md:w-[50%]">
           <div
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            class="w-full h-80 md:h-60 bg-center bg-cover"
-            style="background-image: url('img/map-background.png');"
+        
+            class="w-full h-80 md:h-60 bg-center mx-auto bg-no-repeat "
+            style="background-image: url('img/photo-1689421754952-ee0d0628ca1f.avif');"
           ></div>
         </div>
       </div>
     </section>
-    <!-- END OF IMPACT -->
 
-    <!-- READY TO USE PLATFORM -->
-    <section class="my-20 px-5 overflow-hidden">
-      <div class="mx-auto w-full">
-        <h1 data-aos="fade-up" class=" font-bold text-2xl text-primary text-center my-10">5 Ready to use platform</h1>
-        <div class=" flex gap-9 justify-center flex-wrap">
-
-            <!-- CARD -->
-            <div data-aos="fade-up" class=" rounded-lg py-5 my-3 shadow-md w-64 bg-slate-200">
-                <div class=" w-10 mx-2">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 473.654 473.654" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#e04f00;" cx="236.827" cy="236.827" r="236.827"></circle> <path style="fill:#FFFFFF;" d="M417.235,184.185c-1.339-1.47-3.272-2.367-5.632-2.169c-0.632,0.015-1.253,0.108-1.851,0.295 c-25.504,5.452-51.004,10.905-76.508,16.353c-5.299,1.137-6.724,8.156-3.115,11.761c6.754,6.754,13.504,13.504,20.257,20.257 c-31.708,31.704-63.412,63.408-95.116,95.116c0-53.382,0-106.769,0-160.147c9.648,0,19.292,0,28.937,0 c5.149,0,9.061-5.991,6.099-10.561c-14.192-21.903-28.383-43.805-42.575-65.704c-0.12-0.224-0.266-0.43-0.411-0.639 c-0.011-0.019-0.022-0.037-0.037-0.056c-0.011-0.015-0.022-0.026-0.034-0.045c-0.157-0.217-0.314-0.423-0.497-0.621 c-1.537-1.9-3.586-2.655-5.609-2.55c-1.978-0.049-3.968,0.748-5.464,2.61c-0.116,0.127-0.217,0.266-0.322,0.404 c-0.064,0.086-0.135,0.15-0.194,0.239c-0.082,0.131-0.168,0.258-0.251,0.389c-0.034,0.056-0.075,0.101-0.105,0.157 c-14.218,21.951-28.436,43.899-42.657,65.85c-2.894,4.473,0.939,10.519,6.021,10.519c9.682,0,19.364,0,29.045,0 c0,53.308,0,106.615,0,159.923c-31.513-31.513-63.027-63.027-94.536-94.536c6.885-6.885,13.773-13.773,20.661-20.657 c3.571-3.571,2.079-10.583-3.134-11.697c-25.549-5.46-51.098-10.92-76.646-16.376c-0.553-0.165-1.133-0.247-1.72-0.266 c-2.315-0.198-4.233,0.654-5.576,2.064c-1.462,1.331-2.36,3.261-2.169,5.613c0.011,0.647,0.108,1.275,0.299,1.881 c5.449,25.496,10.901,51,16.349,76.497c1.133,5.299,8.152,6.724,11.757,3.119c6.78-6.78,13.56-13.56,20.34-20.34 c39.415,39.415,78.83,78.83,118.245,118.245c3.328,3.328,7.12,4.405,10.695,4.001c3.354,0.142,6.855-1.017,9.944-4.11 c39.497-39.497,78.995-78.995,118.492-118.496c6.914,6.918,13.833,13.829,20.747,20.747c3.571,3.571,10.583,2.083,11.694-3.134 c5.456-25.549,10.912-51.094,16.368-76.643c0.165-0.553,0.251-1.137,0.269-1.724C419.494,187.442,418.645,185.524,417.235,184.185z"></path> </g></svg>
-                </div>
-                <div class=" mx-2 mt-4">
-                    <h1 class=" font-bold">Event Management Platform</h1>
-                    <div class="">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos eaque esse facere praesentium consequatur voluptate nobis consectetur cumque odio magnam?
-                    </div>
-                    <div class=" flex mt-5 font-bold text-secondary">
-                        <a href="">Learn More</a>
-                    </div>
-                </div>
-            </div> 
-            <!-- END OF CARD -->
-            <!-- CARD -->
-            <div data-aos="fade-up" data-aos-duration="1000" class="  rounded-lg py-5 my-3 shadow-md w-64 bg-slate-200">
-                <div class=" w-10 mx-2">
-                    <svg viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M704 832c0 14.08-11.52 25.6-25.6 25.6H409.6c-14.08 0-25.6-11.52-25.6-25.6l64-38.4v-76.8c0-14.08 11.52-25.6 25.6-25.6h140.8c14.08 0 25.6 11.52 25.6 25.6v76.8l64 38.4z" fill="#9C1E15"></path><path d="M678.4 870.4H409.6c-21.76 0-38.4-16.64-38.4-38.4v-7.68l64-38.4V716.8c0-21.76 16.64-38.4 38.4-38.4h140.8c21.76 0 38.4 16.64 38.4 38.4v69.12l64 38.4v7.68c0 21.76-16.64 38.4-38.4 38.4z m-280.32-32c2.56 3.84 6.4 6.4 11.52 6.4h268.8c5.12 0 8.96-2.56 11.52-6.4L627.2 801.28V716.8c0-7.68-5.12-12.8-12.8-12.8H473.6c-7.68 0-12.8 5.12-12.8 12.8v84.48l-62.72 37.12z" fill="#231C1C"></path><path d="M934.4 704c0 14.08-11.52 25.6-25.6 25.6H166.4c-14.08 0-25.6-11.52-25.6-25.6V230.4c0-14.08 11.52-25.6 25.6-25.6h742.4c14.08 0 25.6 11.52 25.6 25.6v473.6z" fill="#E24F32"></path><path d="M908.8 742.4H166.4c-21.76 0-38.4-16.64-38.4-38.4V230.4c0-21.76 16.64-38.4 38.4-38.4h742.4c21.76 0 38.4 16.64 38.4 38.4v473.6c0 21.76-16.64 38.4-38.4 38.4zM166.4 217.6c-7.68 0-12.8 5.12-12.8 12.8v473.6c0 7.68 5.12 12.8 12.8 12.8h742.4c7.68 0 12.8-5.12 12.8-12.8V230.4c0-7.68-5.12-12.8-12.8-12.8H166.4z" fill="#231C1C"></path><path d="M857.6 625.92c0 14.08-11.52 26.88-25.6 26.88H243.2c-14.08 0-25.6-11.52-25.6-26.88V308.48c0-14.08 11.52-26.88 25.6-26.88h588.8c14.08 0 25.6 11.52 25.6 26.88v317.44z" fill="#F2E5CA"></path><path d="M832 665.6H243.2c-21.76 0-38.4-17.92-38.4-39.68V308.48c0-21.76 17.92-39.68 38.4-39.68h588.8c21.76 0 38.4 17.92 38.4 39.68V627.2c0 20.48-17.92 38.4-38.4 38.4zM243.2 294.4c-7.68 0-12.8 6.4-12.8 14.08V627.2c0 7.68 6.4 14.08 12.8 14.08h588.8c7.68 0 12.8-6.4 12.8-14.08V308.48c0-7.68-6.4-14.08-12.8-14.08H243.2z" fill="#231C1C"></path></g></svg> </div>
-                <div class=" mx-2 mt-4">
-                    <h1 class=" font-bold">Multi-Merchant Platform</h1>
-                    <div class="">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos eaque esse facere praesentium consequatur voluptate nobis consectetur cumque odio magnam?
-                    </div>
-                    <div class=" flex mt-5 font-bold text-secondary">
-                        <a href="">Learn More</a>
-                    </div>
-                </div>
-            </div> 
-            <!-- END OF CARD -->
-            <!-- CARD -->
-            <div data-aos="fade-up" data-aos-duration="1000" class=" rounded-lg py-5 my-3 shadow-md w-64 bg-slate-200">
-                <div class=" w-10">
-                    <svg viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M665.6 870.4c0 14.08-11.52 25.6-25.6 25.6H256c-14.08 0-25.6-11.52-25.6-25.6V281.6c0-14.08 11.52-25.6 25.6-25.6h384c14.08 0 25.6 11.52 25.6 25.6v588.8z" fill="#E64C45"></path><path d="M819.2 870.4c0 14.08-11.52 25.6-25.6 25.6H665.6V256h128c14.08 0 25.6 11.52 25.6 25.6v588.8z" fill="#CE2F3C"></path><path d="M793.6 908.8H256c-21.76 0-38.4-16.64-38.4-38.4V281.6c0-21.76 16.64-38.4 38.4-38.4h537.6c21.76 0 38.4 16.64 38.4 38.4v588.8c0 21.76-16.64 38.4-38.4 38.4zM256 268.8c-7.68 0-12.8 5.12-12.8 12.8v588.8c0 7.68 5.12 12.8 12.8 12.8h537.6c7.68 0 12.8-5.12 12.8-12.8V281.6c0-7.68-5.12-12.8-12.8-12.8H256z" fill="#231C1C"></path><path d="M640 908.8H256c-21.76 0-38.4-16.64-38.4-38.4V281.6c0-21.76 16.64-38.4 38.4-38.4h384c21.76 0 38.4 16.64 38.4 38.4v588.8c0 21.76-16.64 38.4-38.4 38.4zM256 268.8c-7.68 0-12.8 5.12-12.8 12.8v588.8c0 7.68 5.12 12.8 12.8 12.8h384c7.68 0 12.8-5.12 12.8-12.8V281.6c0-7.68-5.12-12.8-12.8-12.8H256zM729.6 256h25.6v550.4h-25.6z" fill="#231C1C"></path><path d="M661.76 904.96l-17.92-17.92 99.84-99.84 85.76 99.84-20.48 17.92-67.84-79.36zM614.4 243.2h-25.6c0-71.68-57.6-129.28-128-129.28S332.8 171.52 332.8 243.2h-25.6c0-85.76 69.12-154.88 153.6-154.88S614.4 157.44 614.4 243.2z" fill="#231C1C"></path><path d="M742.4 243.2h-25.6c0-71.68-57.6-129.28-128-129.28S460.8 171.52 460.8 243.2h-25.6c0-85.76 69.12-154.88 153.6-154.88S742.4 157.44 742.4 243.2z" fill="#231C1C"></path></g></svg>
-                </div>
-                <div class=" mx-2 mt-4">
-                    <h1 class=" font-bold">E-Commerce Platform</h1>
-                    <div class="">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos eaque esse facere praesentium consequatur voluptate nobis consectetur cumque odio magnam?
-                    </div>
-                    <div class=" flex mt-5 font-bold text-secondary">
-                        <a href="">Learn More</a>
-                    </div>
-                </div>
-            </div> 
-            <!-- END OF CARD -->
-
-        </div>
-        </div>
-    </section>
-    <!--  END READY TO USE PLATFORM -->
-
-    <!-- CONTAC US -->
-    <section id="contac" class=" w-full py-10 ">
-      <div class=" container mx-auto flex justify-center">
-       <!-- CARD -->
-        <div data-aos="fade-up" data-aos-duration="1000" class=" w-full mx-5 md:mx-0 md:w-8/12 lg:w-6/12 bg-secondary py-4 flex flex-wrap justify-center rounded-md shadow-lg">
-          <h1 class=" font-bold text-white text-2xl">Contac US</h1>
-          <form action="" class="block w-full mx-5 mt-5">
-            <div class="my-1">
-              <label for="" class=" font-medium text-white" >Nama</label>
-              <input type="text" class=" w-full rounded-md py-1 px-2" placeholder="Masukan di sini"> 
+    <!-- service -->
+     <section id="service" class="container mx-auto w-full flex items-center min-h-screen pt-10 lg:-mt-20 ">
+      <div class=" flex flex-wrap w-full justify-center items-center gap-4">
+         <div class="w-full mb-10 text-center">
+          <h2 class="text-3xl font-bold text-orange-600 inline xl:text-4xl">Service</h2>
+         </div>
+         <section class="w-full -mb-28 flex justify-around items-center">
+          <!-- COntainer CARD -->
+          <div
+            id="container"
+            class="container w-3/12 h-96 group"
+            style="perspective: 1000px;"
+          >
+            <!--  card -->
+            <div
+              class="relative w-full h-full rounded-md overflow-hidden bg-slate-600 shadow-lg shadow-black bg-cover bg-center [transform-style:preserve-3d] [transform:rotateY(20deg)] group-hover:[transform:rotateY(160deg)] transition-all duration-500"
+              style="background-image: url('img/3.jpg');"
+            >
+              <!-- depan -->
+              <div
+                class="absolute top-0 bottom-0 right-0 left-0 group-hover:hidden flex justify-center items-center transition-all duration-500"
+              >
+                
+              </div>
+              <!-- BElakang -->
+              <div
+                class="absolute top-0 bottom-0 right-0 left-0 group-hover:flex hidden justify-center items-center group-hover:[transform:rotateY(180deg)] bg-black bg-opacity-60 transition-all duration-500"
+              >
+                <h1 class="font-bold text-2xl text-orange-600">Freelancer</h1>
+              </div>
             </div>
-            <div class="my-1">
-              <label for="" class=" font-medium text-white">Email</label>
-              <input type="text" class=" w-full rounded-md px-2 py-1" placeholder="Masukan di sini">
+            <!--  end card -->
+          </div>
+          <!-- End Container CArd -->
+          <!-- COntainer CARD -->
+          <div
+            id="container"
+            class="container w-3/12 h-96 group"
+            style="perspective: 1000px;"
+          >
+            <!--  card -->
+            <div
+              class="relative w-full h-full rounded-md overflow-hidden bg-slate-600 shadow-lg shadow-black bg-cover bg-center [transform-style:preserve-3d]  group-hover:[transform:rotateY(180deg)] transition-all duration-500 scale-95"
+              style="background-image: url('img/2.jpg');"
+            >
+              <!-- depan -->
+              <div
+                class="absolute top-0 bottom-0 right-0 left-0 group-hover:hidden flex justify-center items-center transition-all duration-500"
+              >
+                
+              </div>
+              <!-- BElakang -->
+              <div
+                class="absolute top-0 bottom-0 right-0 left-0 group-hover:flex hidden justify-center items-center group-hover:[transform:rotateY(180deg)] bg-black bg-opacity-60 transition-all duration-500 "
+              >
+                <h1 class="font-bold text-2xl text-orange-600">Programmer</h1>
+              </div>
             </div>
-            <div class="my-1">
-              <label for="" class=" font-medium text-white">Kritik Dan Saran </label>
-             <textarea name="" id="" class="w-full rounded-md" rows="9"></textarea>
+            <!--  end card -->
+          </div>
+          <!-- End Container CArd -->
+          <!-- COntainer CARD -->
+          <div
+            id="container"
+            class="container w-3/12 h-96 group"
+            style="perspective: 1000px;"
+          >
+            <!--  card -->
+            <div
+              class="relative w-full h-full rounded-md overflow-hidden bg-slate-600 shadow-lg shadow-black bg-cover bg-center [transform-style:preserve-3d] [transform:rotateY(-20deg)] group-hover:[transform:rotateY(180deg)] transition-all duration-500"
+              style="background-image: url('img/4.jpg');"
+            >
+              <!-- depan -->
+              <div
+                class="absolute top-0 bottom-0 right-0 left-0 group-hover:hidden flex justify-center items-center transition-all duration-500"
+              >
+                
+              </div>
+              <!-- BElakang -->
+              <div
+                class="absolute top-0 bottom-0 right-0 left-0 group-hover:flex hidden justify-center items-center group-hover:[transform:rotateY(180deg)] bg-black bg-opacity-60 transition-all duration-500"
+              >
+                <h1 class="font-bold text-2xl text-orange-600">Photografer</h1>
+              </div>
             </div>
-            <div class=" w-full">
-              <button id="submit" class=" bg-primary py-2 px-5 text-white rounded-md shadow-md hover:bg-slate-600">Submit</button>
-            </div>
-          </form>
-        </div>
-       <!-- END OF CARD -->
+            <!--  end card -->
+          </div>
+          <!-- End Container CArd -->
+        </section>
       </div>
-    </section>
-    <!-- END OF CONTAC US -->
+     </section>
+     <!-- service -->
+   <!-- contac -->
+     <section id="c" class="overflow-hidden min-h-screen -mt-56  w-full flex items-center">
+     <div class=" container pt-20 px-5  flex flex-wrap mx-auto w-full  justify-center items-center">
+         <div class=" w-full mb-5 xl:mb-10 text-center">
+             <h2 class=" text-secondary font-bold text-3xl xl:text-4xl inline">Call Me</h2>
+         </div>
+         <form  action="" class="w-full md:w-10/12 border flex flex-wrap py-5 shadow-md">
+             <div class="w-full md:w-1/2 px-5 my-2">
+                 <label for="nama" class=" font-semibold">Your Name</label>
+                 <input type="text" class=" w-full border py-1 px-2 rounded-md" placeholder="Input here">
+             </div>
+             <div class=" w-full md:w-1/2 px-5 my-2">
+                 <label for="nama" class="font-semibold">Your Email</label>
+                 <input type="text" class=" w-full border py-1 px-2 rounded-md" placeholder="Input here">
+             </div>
+             <div class=" w-full px-5 my-2">
+                 <label for="pesan">Your Message</label>
+                 <textarea name="" id="" rows="8" class="w-full border rounded-md">
+                 </textarea>
+             </div>
+             <div class=" w-full py-2 px-5">
+                 <button class=" rounded-md bg-secondary py-2 px-5 font-semibold text-white hover:bg-slate-700">Submit</button>
+             </div>
+         </form>
+     </div>
+ </section>
+ <!-- contac -->
 
-     <!-- FOOTER -->
-     <footer class="w-full py-10 bg-slate-300">
-       <div class=" text-center font-semibold  text-slate-700">
-        &copy; 2024 HepyTech
-       </div>
-    </footer>
+
+
+
+
+<!-- FOOTER -->
+     <footer class="w-full border-t bg-slate-700 pt-10 ">
+         <div class=" container px-7 flex ">
+          <h1 class=" w-full font-bold text-2xl md:text-2xl pb-8">
+            HepyTech
+          </h1>
+         </div>
+         <!-- menu -->
+          <div class="w-full mb-10 md:w-4/12 pl-7 ">
+            <h1 class="font-bold text-slate-300 text-xl pb-2  ">Quick Menu</h1>
+            <ul class=" text-slate-300 text-sm ">
+              <li class=" flex items-center pb-2"><svg class=" h-5 w-5 fill-current me-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path d="m21.743 12.331-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 0 0 .743-1.669z"></path>
+                  </svg>Home</li>
+              <li class=" flex items-center pb-2"><svg class=" h-5 w-5 fill-current me-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path d="M12 2C6.486 2 2 6.486 2 12v4.143C2 17.167 2.897 18 4 18h1a1 1 0 0 0 1-1v-5.143a1 1 0 0 0-1-1h-.908C4.648 6.987 7.978 4 12 4s7.352 2.987 7.908 6.857H19a1 1 0 0 0-1 1V18c0 1.103-.897 2-2 2h-2v-1h-4v3h6c2.206 0 4-1.794 4-4 1.103 0 2-.833 2-1.857V12c0-5.514-4.486-10-10-10z"></path>
+                  </svg>FAQ</li>
+              <li class=" flex items-center pb-2"><svg class=" h-5 w-5 fill-current me-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"></path>
+                  </svg>Tutorial</li>
+          </ul>
+          </div>
+          <!-- Alamat -->
+           <div class="w-full mb-10 md:w-4/12">
+             <h1 class="font-bold flex pb-4 text-2xl pl-7">information</h1>
+             <div class="text-sm text-slate-300">
+                <div class="pb-2 px-7">IT Solution for you Busines</div>
+                <div class="pb-2 px-7">summarecon,rancabolang,Kec.Gedebage,Kota Bandung,JawaBarat 40123</div>
+             </div>
+           </div>
+            <!-- Alamat -->
+            <!-- {{-- Social Media --}} -->
+            <div class="w-full md:w-4/12 mb-10 flex justify-start  px-7">
+                <div class="w-full gap-5 flex  ">
+                    <a href="" class=" text-slate-400 hover:text-sky-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-14 h-14 fill-current">
+                            <path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path>
+                        </svg>
+                    </a>
+                    <a href="" class=" text-slate-400 hover:text-purple-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-14 h-14 fill-current">
+                            <path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path>
+                            <circle cx="11.994" cy="11.979" r="3.003"></circle>
+                        </svg>
+                    </a>
+                    <a href="" class=" text-slate-400 hover:text-sky-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-14 h-14 fill-current">
+                            <path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- {{-- End Social Media --}} -->
+        </div>
+    
+        <!-- {{-- hr --}} -->
+        <div class=" w-full border-t border-slate-400"></div>
+        <!-- {{-- end hr --}} -->
+    
+        <!-- {{-- Edn --}} -->
+        <div class="container mx-auto py-4 flex flex-wrap items-center justify-center md:justify-center px-5">
+            <h1 class=" text-sm md:text-sm font-semibold inter pb-3 md:pb-0 text-slate-400">Copyright 2024 © hepytech.com</h1>
+        </div>
+        <!-- {{-- End --}} -->
+     </footer>
     <!-- FOOTER -->
 
 
-    <!-- back_top -->
-    <a href="#">
-     <div  id="back_top" class=" animate-bounce hidden fixed bottom-10 right-10 bg-sky-700 p-4 rounded-full">
-        <div class=" text-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class=" fill-current"><path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path></svg>   </div>
-    </a>
-    <!-- back_top -->
-
+    
     <script src="script.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
