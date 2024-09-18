@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Portfolio</title><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="src/output.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style type="text/tailwindcss">
       .navbar-fixed {
         @apply fixed z-[9999];
@@ -74,11 +75,12 @@
       <li class="px-3 group hover:bg-orange-600 rounded-lg py-2 hover:text-white font-bold">
         <a href="../#home" class="flex">Home</a>
       </li>
+      
       <li class="px-3 group hover:bg-orange-600 py-2 hover:text-white rounded-lg font-bold">
-        <a href="../#service">Service</a>
+        <a href="#About">About</a>
       </li>
       <li class="px-3 group hover:bg-orange-600 py-2 hover:text-white rounded-lg font-bold">
-        <a href="../#c">Contac</a>
+        <a href="../#contac">Call Me</a>
       </li>
       </ul>
     </nav>
@@ -154,7 +156,7 @@
          <div class=" shadow-md mx-5 rounded-lg mb-10">
             <!-- card head -->
              <div class="h-60 bg-cover bg-center rounded-t-lg overflow-hidden group">
-              <div style="background: url('img/istockphoto-1188116818-170667a.webp'); background-position: center; background-size: cover; " class=" h-full group-hover:scale-110 transition-all duration-500" ></div>
+              <div style="background: url('img/istockphoto-1188116818-170667a.webp'); background-position: center; background-size: cover; " class=" h-full group-hover:scale-125 hover:rotate-12 transition-all duration-500" ></div>
              </div>
              <div class=" px-2">
                 <h1 class="font-bold text-2xl my-3">News App</h1>
@@ -167,7 +169,7 @@
           <div class=" shadow-md mx-5 rounded-lg mb-10">
             <!-- card head -->
              <div class="h-60 bg-cover bg-center rounded-t-lg overflow-hidden group">
-              <div style="background: url('img/photo-1605186909539-7a0ba14a6637.avif'); background-position: center; background-size: cover; " class=" h-full group-hover:scale-110 transition-all duration-500" ></div>
+              <div style="background: url('img/photo-1605186909539-7a0ba14a6637.avif'); background-position: center; background-size: cover; " class=" h-full  group-hover:scale-125 hover:rotate-12 transition-all duration-500" ></div>
              </div>
              <div class=" px-2">
                 <h1 class="font-bold text-2xl my-3">News App</h1>
@@ -180,7 +182,7 @@
             <div class=" shadow-md mx-5 rounded-lg mb-10">
                 <!-- card head -->
                  <div class="h-60 bg-cover bg-center rounded-t-lg overflow-hidden group">
-                  <div style="background: url('img/photo-1593789198777-f29bc259780e.avif'); background-position: center; background-size: cover; " class=" h-full group-hover:scale-110 transition-all duration-500" ></div>
+                  <div style="background: url('img/photo-1593789198777-f29bc259780e.avif'); background-position: center; background-size: cover; " class=" h-full group-hover:scale-125 hover:rotate-12 transition-all duration-500" ></div>
                  </div>
                  <div class=" px-2">
                     <h1 class="font-bold text-2xl my-3">News App</h1>
@@ -193,7 +195,7 @@
           <div class=" shadow-md mx-5 rounded-lg mb-10">
             <!-- card head -->
              <div class="h-60 bg-cover bg-center rounded-t-lg overflow-hidden group">
-              <div style="background: url('img/image1.jpeg'); background-position: center; background-size: cover; " class=" h-full group-hover:scale-110 transition-all duration-500" ></div>
+              <div style="background: url('img/image1.jpeg'); background-position: center; background-size: cover; " class=" h-full  group-hover:scale-125 hover:rotate-12 transition-all duration-500" ></div>
              </div>
              <div class=" px-2">
                 <h1 class="font-bold text-2xl my-3">News App</h1>
@@ -205,6 +207,25 @@
     </div>
     </section>
     <!-- END OF CONTENT -->
+
+   <!-- About -->
+     <section class="md:container mx-auto w-full py-20 px-5" id="About">
+                <div class="flex flex-wrap w-full" data-aos="zoom-in"data-aos-duration="800">
+
+                  <img src="img/download (1).jfif" alt="" class="md:w-1/2 w-full rounded-md shadow-md mb-5">
+                  <div class="md:w-1/2 w-full md:px-5 px-0">
+                    <h3 class="text-4xl font font-semibold mb-3">About Tailsimple</h3>
+                    <p class="mb-5 border-b border-gray-900 pb-5 text-justify">Tailwind CSS is a utility-first CSS framework designed to help developers build modern, 
+                      responsive interfaces quickly and efficiently. Instead of providing pre-designed components like many other frameworks</p>
+                    <ul class="flex gap-5">
+                      <li><a href=""><i class="fa-brands fa-tiktok"></i></i> Tiktok</a></li>
+                      <li><a href="https://Instagram.com/ham-aries8"><i class="fa-brands fa-instagram"></i></i> Instagram</a></li>
+                      <li><a href=""><i class="fa-brands fa-youtube"></i></i> Youtube</a></li>
+                      <li><a href=""><i class="fa-brands fa-facebook"></i></i> facebook</a></li>
+                    </ul>      
+                    </div>
+                  </div>
+         </section>
 
     <!-- FOOTER -->
     <div class=" container px-10 py-20 mx-auto w-full flex flex-wrap items-center">
