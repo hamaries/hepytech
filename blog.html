@@ -5,8 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="src/output.css" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <style type="text/tailwindcss">
+      .navbar-fixed {
+        @apply fixed z-[9999];
+        @apply shadow-md bg-white;
+        /* backdrop-filter: blur(5px); */
+      }
+      .show {
+        display: block;
+      }
+      .hamburger-line {
+        @apply w-[30px] h-[2px] my-2 block;
+      }
+      .hamburger-active > span:nth-child(1) {
+        @apply origin-top-left rotate-45 transition-all duration-300;
+      }
+      .hamburger-active > span:nth-child(2) {
+        @apply scale-0 transition-all duration-300;
+      }
+      .hamburger-active > span:nth-child(3) {
+        @apply origin-bottom-left -rotate-45 transition-all duration-300;
+      }
+
+      #toggle:checked ~ label .wadah_circle .circle {
+        @apply translate-x-8;
+        @apply bg-white;
+      }
+      #toggle:checked ~ label .wadah_circle {
+        @apply bg-slate-700;
+      }
+      .dark {
+        @apply dark:bg-slate-900 dark:text-slate-200;
+      }
       .text-primary {
         color: #5e17eb;
       }
@@ -22,8 +53,40 @@
     </style>
   </head>
   <body>
+    <!-- navbar -->
+    <header class="absolute top-0 left-0 w-full bg-white items-center flex z-10 py-4 ">
+ <div class="container mx-auto px-5">
+   <div class="flex items-center justify-between relative">
+     <h2 class="font-bold text-primary text-xl">HepyTech</h2>
+     <div class="flex items-center">
+      <button
+        id="hamburger"
+        name="hamburger"
+        type="button"
+        class="absolut md:hidden"
+      >
+        <span class="hamburger-line bg-black"></span>
+        <span class="hamburger-line bg-black"></span>
+        <span class="hamburger-line bg-black"></span>
+      </button>
+      <nav id="nav-menu"  class="hidden md:flex absolute md:static md:bg-transparent md:max-w-full md:shadow-none  bg-white shadow-lg rounded-lg max-w-[250px] w-full right-0 top-full overflow-hidden"></nav>
+      <ul class="block md:flex">
+      <li class="px-3 group hover:bg-orange-600 rounded-lg py-2 hover:text-white font-bold">
+        <a href="../#home" class="flex">Home</a>
+      </li>
+      <li class="px-3 group hover:bg-orange-600 py-2 hover:text-white rounded-lg font-bold">
+        <a href="../#service">Service</a>
+      </li>
+      <li class="px-3 group hover:bg-orange-600 py-2 hover:text-white rounded-lg font-bold">
+        <a href="../#c">Contac</a>
+      </li>
+      </ul>
+   </div>
+ </div>
+    </header>
+    <!-- navbar -->
     <!-- HEADER -->
-    <header class="w-full py-10 bg-slate-300">
+    <header class="w-full py-20 bg-slate-300">
       <div class="container mx-auto px-10">
         <h2 class="font-semibold text-2xl text-primary">
           Build More Impacts
@@ -47,7 +110,7 @@
     </header>
     <!-- END OF HEADER -->
 
-    <h6 class="text-center mt-10 font-semibold text  text-secondary">Portofolio</h6>
+    <h6 class="text-center mt-10 font-bold text-4xl py-3 text-secondary">Portofolio</h6>
     <h1 class="font-extrabold text-2xl text-center text-secondary">
       Our Lastest Work
     </h1>
