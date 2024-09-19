@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="src/output.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style type="text/tailwindcss">
@@ -89,8 +90,8 @@
     </header>
     <!-- navbar -->
     <!-- HEADER -->
-    <header class="w-full py-20 bg-slate-300">
-      <div class="container mx-auto px-10">
+    <header class="w-full py-20 bg-slate-300" >
+      <div class="container mx-auto px-10 " data-aos="fade-right" data-aos-duration="1500">
         <h2 class="font-semibold text-2xl text-primary">
           Build More Impacts
         </h2>
@@ -118,14 +119,14 @@
       Our Lastest Work
     </h1>
     <div class="mt-5 container mx-auto group columns-2 md:columns-4  px-10">
-      <div class="flex justify-center mb-1 ">
+      <div class="flex justify-center mb-1 hover:scale-110 transition-all duration-500" >
         <a
           class="py-1 px-5 bg-secondary font-bold text-sm my-4 text-white rounded-full active:bg-slate-600 cursor-pointer w-full text-center mx-2  "
         >
           E-Commerce
         </a>
       </div>
-      <div class="flex justify-center mb-1">
+      <div class="flex justify-center mb-1 hover:scale-110 transition-all duration-500" >
         <a
           class="py-1 px-5 bg-secondary font-bold text-sm my-4 text-white rounded-full active:bg-slate-600 cursor-pointer w-full text-center mx-2"
         >
@@ -133,14 +134,14 @@
         </a>
         </a>
       </div>
-      <div class="flex justify-center mb-1">
+      <div class="flex justify-center mb-1 hover:scale-110 transition-all duration-500">
         <a
           class="py-1 px-5 bg-secondary font-bold text-sm my-4 text-white rounded-full active:bg-slate-600 cursor-pointer w-full text-center mx-2"
         >
           Marketplace
         </a>
       </div>
-      <div class="flex justify-center mb-1">
+      <div class="flex justify-center mb-1 hover:scale-110 transition-all duration-500">
         <a
           class="py-1 px-5 bg-secondary font-bold text-sm my-4 text-white rounded-full active:bg-slate-600 cursor-pointer w-full text-center mx-2"
         >
@@ -210,7 +211,7 @@
 
    <!-- About -->
      <section class="md:container mx-auto w-full py-20 px-5" id="About">
-                <div class="flex flex-wrap w-full" data-aos="zoom-in"data-aos-duration="800">
+                <div class="flex flex-wrap w-full" data-aos="zoom-in"data-aos-duration="1000">
 
                   <img src="img/download (1).jfif" alt="" class="md:w-1/2 w-full rounded-md shadow-md mb-5">
                   <div class="md:w-1/2 w-full md:px-5 px-0">
@@ -229,18 +230,25 @@
 
     <!-- FOOTER -->
     <div class=" container px-10 py-20 mx-auto w-full flex flex-wrap items-center">
-        <div class=" w-full md:w-1/2 mb-10">
+        <div class=" w-full md:w-1/2 mb-10" data-aos="fade-right" data-aos-duration="1000">
             <h1 class="text-secondary  font-semibold text-2xl ">They are happy</h1>
             <h1 class=" text-secondary font-bold text-2xl">Witch Hepytech</h1>
             <span>Lorem ipsuumquolorum distinctio itaque quidem dolore perspiciatis dolores pariatur aut quaerat.</span>
         </div>
        
-        <div class=" w-full flex items-center md:justify-center md:w-1/2">
+        <div class=" w-full flex items-center md:justify-center md:w-1/2" data-aos="fade-left"data-aos-duration="1000">
          <img class="h-12 me-5" src="img/ses.png" alt="">
          <img class="h-12" src="img/maco.png" alt="">
         </div>
     </div>
     <!-- END OF FOOTER -->
+    <footer class="py-5 text-center font-bold">
+      &copy; 2024 Tailsimple
+     </footer>
 <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
