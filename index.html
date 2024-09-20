@@ -124,12 +124,20 @@
                   </a>
                 </li>
                 <li
+                  class="px-3 group hover:bg-orange-600 py-3 font-bold hover:text-white rounded-lg"
+                >
+                  <a class="flex" href="#Portfolio">
+                   Portfolio
+                  </a>
+                </li>
+                <li
                   class="px-3 group hover:bg-orange-600 hover:bg-gradient-to-r py-3 font-bold hover:text-white rounded-lg"
                 >
                   <a class="flex" href="#service">
                     Service
                   </a>
                 </li>
+                
                 <li
                   class="px-3 group hover:bg-orange-600 hover:bg-gradient-to-r py-3 font-bold hover:text-white rounded-lg"
                 >
@@ -223,31 +231,76 @@
     <!-- END OF HERO SECTION -->
 
     <!-- about -->
-    <section  class="my-16 overflow-hidden mb-1 ">
-      <div class="mx-auto px-7 flex flex-wrap ">
-        <div class=" w-full md:w-[50%]">
-          <h1 class="text-secondary font-bold text-3xl my-2">About</h1>
-          <h1 class="text-2xl font-semibold text-slate-700">
-            Scale up your impact through technology
-          </h1>
-          <div class="my-2 text-slate-500  md:text-xl">
-            Be like our global clients, scaled up your impacts through elevated
-            digital transformation, with our solutions.
-            Lorem ipsum dolor sit amet, consectetur .
+    <section  class="pt-20 ">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap">
+          <div class="px-4 w-full self-center lg:w-1/2" >
+            <h2 class="text-3xl font-bold text-orange-600 mt-1">HepyTech</h2>
+            <p class=" text-lg font-medium text-slate-700 pt-2 leading-relaxed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt molestiae quis nulla aut.
+              Rem repellat pariatur recusandae cumque, magnam nostrum labore saepe praesentium voluptatibus facere! Dicta aliquam magni deserunt temporibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maiores officia, natus illum tempore delectus quas provident voluptatibus cupiditate repellat?</p>
           </div>
-        </div>
-        <div class=" w-full md:w-[50%]">
-          <div
-        
-            class="w-full h-80 md:h-60 bg-center mx-auto bg-no-repeat "
-            style="background-image: url('img/photo-1689421754952-ee0d0628ca1f.avif');"
-          ></div>
+          <div class="w-full self-end px-4 lg:w-1/2 lg:mt-9 lg:right-0">
+            <div class="relative mt-10">
+              <img src="img/company.jpg" alt="" class="mx-auto">
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    
+    <!-- about -->
+    <!-- portfolio -->
+     <section id="Portfolio" class="pt-36 ">
+      <div class="text-3xl font-bold text-center pb-10 text-orange-600">Portfolio</div>
+      <div class="container mx-auto flex flex-wrap justify-between ">
+        <div class="overflow-hidden rounded-lg shadow transition w-full mx-auto md:w-5/12 hover:scale-105 duration-700 hover:shadow-xl hover:shadow-slate-400 cursor-pointer">
+          <img
+            alt=""
+            src="img/a.jpg"
+            class="h-56 w-full object-cover"
+          />
+           <div class="mx-4">
+            <h2 class="font-medium mt-3">Workshop Corp</h2>
+            <p class="mb-3 text-sm text-slate-400">Website</p>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-lg shadow transition w-full mx-auto md:w-5/12 mt-5 md:mt-0 hover:scale-105 duration-700 hover:shadow-xl hover:shadow-slate-400 cursor-pointer">
+          <img
+            alt=""
+            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            class="h-56 w-full object-cover"
+          />
+           <div class="mx-4">
+            <h2 class="font-medium mt-3">Entertainment Corp</h2>
+            <p class="mb-3 text-sm text-slate-400">Website</p>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-lg shadow transition w-full mx-auto md:w-5/12 mt-5 md:mt-5 hover:scale-105 duration-700 hover:shadow-xl hover:shadow-slate-400 cursor-pointer">
+          <img
+            alt=""
+            src="img/b.jpg"
+            class="h-56 w-full object-cover"
+          />
+           <div class="mx-4">
+            <h2 class="font-medium mt-3">Robotics Corp</h2>
+            <p class="mb-3 text-sm text-slate-400">Website</p>
+          </div>
+        </div>
+        <div class="overflow-hidden rounded-lg shadow transition w-full mx-auto md:w-5/12 mt-5 md:mt-5 hover:scale-105 duration-700 hover:shadow-xl hover:shadow-slate-400 cursor-pointer">
+          <img
+            alt=""
+            src="img/c.jpg"
+            class="h-56 w-full object-cover"
+          />
+           <div class="mx-4">
+            <h2 class="font-medium mt-3">Desainer crop</h2>
+            <p class="mb-3 text-sm text-slate-400">Website</p>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- portfolio -->
     <!-- service -->
-     <section id="service" class="container mx-auto w-full flex items-center min-h-screen pt-10 lg:-mt-20 -mt-16">
+     <section id="service" class="container mx-auto w-full flex items-center min-h-screen pt-36 lg:-mt-20 -mt-40">
       <div class=" flex flex-wrap w-full justify-center items-center gap-4">
          <div class="w-full mb-10 text-center">
           <h2 class="text-3xl font-bold text-orange-600 inline xl:text-4xl">Service</h2>
@@ -377,7 +430,7 @@
     </p>
   </div>
 
-  <div class="mt-6 grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4">
+  <div class="mt-6 grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4" >
     <div class="flex flex-col rounded-lg bg-blue-50 px-4 py-8 text-center">
       <div class="order-last text-lg font-medium text-gray-500">Total Sales</div>
 
